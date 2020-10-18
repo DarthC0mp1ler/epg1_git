@@ -1,0 +1,14 @@
+
+	git clone https://github.com/DarthC0mp1ler/epg1_git.git
+	git branch hw-s19204
+
+	git checkout -b rebase-me origin/rebase-me
+	git rebase hw-s19204
+
+	git checkout hw-s19204
+	git merge rebase-me
+
+	git merge origin/merge-me
+	git add README.md
+
+	
